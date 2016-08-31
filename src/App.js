@@ -59,6 +59,7 @@ class App extends Component {
     return (
       <div>
         <div className='form'>
+          <p>Demo for the <a href='https://github.com/vgrafe/react-range-progress'>react-range-progress</a> component.</p>
           <label>value</label>
           <input
             type='number'
