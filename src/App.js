@@ -27,7 +27,7 @@ class App extends Component {
       fillColor: '#aa3333ff',
       thumbColor: '#ffffffff',
       trackColor: '#baaaaa55',
-      height: 6
+      height: 10
     }
   }
 
@@ -104,6 +104,7 @@ class App extends Component {
         }}>
           <div style={{width: 300}}>
             <Range
+              height={this.state.height}
               hideThumb={!!this.state.thumb}
               fillColor={hexToRgba(this.state.fillColor)}
               trackColor={hexToRgba(this.state.trackColor)}
